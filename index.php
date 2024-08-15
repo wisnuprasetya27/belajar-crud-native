@@ -12,7 +12,7 @@ if(empty($_SESSION['login_app'])){
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="template/dist/img/AdminLTELogo.png" type="image/x-icon"/>
+  <link rel="shortcut icon" href="assets/template/dist/img/AdminLTELogo.png" type="image/x-icon"/>
   <title>Belajar CURD Native</title>
 
   <?php include 'layouts/css.php'; ?>
@@ -22,7 +22,7 @@ if(empty($_SESSION['login_app'])){
 
   <!-- Preloader -->
   <!-- <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="template/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+    <img class="animation__shake" src="assets/template/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
   </div> -->
 
 	<?php

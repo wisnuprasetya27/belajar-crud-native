@@ -15,7 +15,7 @@ if(!empty($_GET['modal']))
 				<div class="modal-content">
 					<div class="modal-header bg-primary">
 						<h4 class="modal-title"><b>Tambah</b> | User</h4>
-						<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
 					</div>
 					<form action="user_proses.php?proses=tambah" method="POST" class="form-inputdata" enctype="multipart/form-data">
 						<div class="modal-body">
@@ -72,7 +72,7 @@ if(!empty($_GET['modal']))
 				<div class="modal-content">
 					<div class="modal-header bg-success">
 						<h4 class="modal-title"><b>Edit</b> | User</h4>
-						<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
 					</div>
 					<div class="modal-body">
 						<?php if($count == 0){ ?>
