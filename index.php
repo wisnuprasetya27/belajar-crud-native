@@ -13,7 +13,7 @@ if(empty($_SESSION['login_app'])){
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="template/dist/img/AdminLTELogo.png" type="image/x-icon"/>
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>Belajar CURD Native</title>
 
   <?php include 'layouts/css.php'; ?>
 </head>
