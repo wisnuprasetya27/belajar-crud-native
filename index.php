@@ -37,7 +37,7 @@ if(empty($_SESSION['login_app'])){
 			$content = $page;
 		}
 		else{
-			$content = 'dashboard.php';
+			$content = 'page_404.php';
 		}
 	}
 	else{
